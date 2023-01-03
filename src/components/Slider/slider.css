@@ -1,0 +1,74 @@
+.slider-container {
+    position: relative;
+    padding: 2rem;
+}
+
+.slider-container .swiper {
+    width: 80%;
+    height: 10rem;
+    position: unset;
+}
+
+.slider-container .swiper-slide {
+    background: white;
+    display: flex;
+    border-radius: 10px;
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-container .swiper-button-prev {
+    left: 6rem;
+}
+.slider-container .swiper-button-next {
+    right: 6rem;
+}
+
+.slider-container .swiper-button-prev,
+.slider-container .swiper-button-next {
+    color: black;
+} 
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+.name > :nth-child(1) {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.name > :nth-child(2) {
+    font-size: 0.7rem;
+}
+
+.left-side > :nth-child(2) {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.left-side > :nth-child(3) {
+    font-size: 0.6rem;
+    border: 1px solid var(--black);
+    border-radius: 15px;
+    padding: 5px 10px;
+    width: max-content;
+
+}
+
+.img-product {
+    position: absolute;
+    transform: rotate(-25deg);
+    right: 0;
+    width: 40%;
+    height: 100%;
+    bottom: -20%;
+}

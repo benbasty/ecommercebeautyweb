@@ -10,9 +10,11 @@ const hero = () => {
         <div className='h_sides'>
             <span className='text1'>Skin Protection Cream</span>
             <div className='text2'>
-                <span>Trandy Collection</span>
-                <span>Seedily say has suitable disposable 
-                    and boy. Exercise man child rejoiced.
+                <span>Trendy Collection</span>
+                <span>Best collection of 
+                    skin care products.
+                    Shop our range of suncare, sunscreen and aftersun 
+                    products to keep yourself protected.
                 </span>
             </div>
         </div>
