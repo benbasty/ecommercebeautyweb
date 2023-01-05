@@ -15,7 +15,7 @@ const virtual = () => {
             <img src={Shade} alt="shade" />
         </div>
         <div className='right'>
-            <div className="wrapper">
+            <div className="wrapper-virtual">
                 <ReactCompareImage leftImage={Before} rightImage={After} />
             </div>
             
