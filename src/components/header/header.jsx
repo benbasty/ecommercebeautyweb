@@ -4,7 +4,7 @@ import LOGO from '../../assets/logo.png';
 function Header() {
     return(
         <section>
-            <div className='container'>
+            <div className='container-header'>
                 <div className='logo'>
                     <img src={LOGO} alt="logo" />
                     <span>Ordinary</span>
