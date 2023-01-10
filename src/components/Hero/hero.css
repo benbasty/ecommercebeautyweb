@@ -127,3 +127,36 @@
     font-size: 2.5rem;
 }
 
+/* media queries tablet */
+@media screen and (max-width: 856px) {
+  .text1, .text2 > span:nth-of-type(2) {
+    font-size: 0.9rem;
+  }
+  .text2 > span:nth-of-type(1),
+  .traffic > span:nth-child(1),
+  .customers > span:nth-child(1) {
+    font-size: 1.5rem;
+  }
+
+    .blueCircle {
+    width: 25rem;
+    height: 25rem;
+    }
+
+    .wrapper > img {
+    width: 25rem;
+    }
+    .cart2 {
+        bottom: 8%; 
+        gap: 0.5rem;
+    }
+    .cart2 .shoppingbag {
+        height: 3em;
+        width: 3em;
+    }
+    .signup {
+        gap: 0.5rem;
+        padding: 8px;
+        font-size: 0.6rem;
+    }
+}
