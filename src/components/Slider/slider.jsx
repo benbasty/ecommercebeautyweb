@@ -19,6 +19,17 @@ const slider = () => {
             slidesPerGroup={1}
             loop= {true}
             navigation = {true}
+            breakpoints = {{
+                856: {
+                    slidesPerView: 3
+                },
+                640: {
+                    slidesPerView: 3
+                },
+                0: {
+                    slidesPerView: 1
+                }
+            }}
         >
             {SliderProducts.map((slide, i) => (
                 <SwiperSlide>
