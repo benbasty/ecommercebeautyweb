@@ -79,4 +79,7 @@
     .slider-container .swiper-button-next {
         display: none;
     } 
+    .slider-container .swiper-slide {
+        width: none;
+    }
 }

@@ -144,7 +144,7 @@
     }
 
     .wrapper > img {
-    width: 25rem;
+        width: 25rem;
     }
     .cart2 {
         bottom: 8%; 
@@ -158,5 +158,28 @@
         gap: 0.5rem;
         padding: 8px;
         font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .blueCircle {
+        width: 24rem;
+        height: 24rem;
+        }
+
+    .wrapper > img {
+        width: 60vw;
+    }
+
+    .wrapper>:nth-child(3), 
+    .wrapper>:nth-child(1) {
+        text-align: center;
+    }
+    .cart2 {
+        bottom: 5%;
     }
 }

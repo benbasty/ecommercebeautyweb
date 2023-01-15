@@ -24,10 +24,10 @@ const slider = () => {
                     slidesPerView: 3
                 },
                 640: {
-                    slidesPerView: 3
+                    slidesPerView: 2
                 },
                 0: {
-                    slidesPerView: 1
+                    slidesPerView: 2
                 }
             }}
         >

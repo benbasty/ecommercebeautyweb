@@ -94,3 +94,27 @@
     background: rgb(198, 198, 198);
     border: none;
 }
+
+@media screen and (max-width: 856px) {
+    .container > :nth-child(2) {
+        font-size: 0.7rem;
+    }
+    .reviews {
+        padding: 1.5rem 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .wrapper-testimonials>img {
+        width: 100%;
+    }
+
+    .testimonial > span:nth-of-type(1) {
+        font-size: 0.7rem;
+    }
+
+    .testimonial > span:nth-of-type(2) {
+        font-size: 0.8rem;
+        
+    }
+}

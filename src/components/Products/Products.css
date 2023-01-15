@@ -69,3 +69,35 @@
     display: flex;
     border-radius: 1rem;
 }
+
+@media screen and (max-width: 856px) {
+    .container-products {
+        gap: 1rem;
+    }
+
+    .container-products>:nth-child(1) {
+        display: none;
+    }
+    .products {
+        gap: 1rem;
+        grid-template-columns: none;
+    }
+    .menu-products {
+        flex-direction: row;
+        margin: 1rem 0;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .menu-products {
+        gap: 1.5rem;
+        margin-left: 2rem;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .container-products h1 {
+        font-size: 1.3rem;
+    }
+}
