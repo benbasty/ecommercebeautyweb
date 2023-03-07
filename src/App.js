@@ -15,8 +15,8 @@ function App() {
       <Slider />
       <Virtual />
       <Products />
-      <Testimonials />  
-      <Footer />  
+      <Testimonials />
+      <Footer />
     </div>
   );
 }
